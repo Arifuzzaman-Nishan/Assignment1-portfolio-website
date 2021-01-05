@@ -23,7 +23,7 @@ p
     width: 40%;
     margin-left: 4%;
     padding: 2%;
-    margin-top: 7%;
+    margin-top: 6%;
     float: left;
     text-align: justify;
 }
@@ -43,8 +43,7 @@ p
 }
 section
 {
-    border: 2px solid red;
-    height: 642px;
+    height: 800px;
 }
 .half-width pre
 {
@@ -58,7 +57,7 @@ section
 h2
 {
     font-size: 40px;
-    color: #270e6b;
+    color: #6b5b95;
 }
 
 #header2
@@ -98,9 +97,43 @@ h2
 }
 .work #images
 {
-    width: 50%;
+    width: 65%;
     text-align: center;
     display: block;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 10%;
 }
+#text
+{
+    margin-left: 20%;
+    margin-top: -10%;
+}
+#button-position
+{
+    position: absolute;
+    top: 340%;
+    right: 23%;
+
+}
+
+footer p
+{
+    text-align: center;
+    color: #ff7b25;
+    font-size: 18px;
+    margin-top: -15%;
+    font-weight: 800;
+
+
+}
+footer h2
+{
+    font-size: 35px;
+    text-align: center;
+    color: #6b5b95;
+}
+
+
+
+
+
