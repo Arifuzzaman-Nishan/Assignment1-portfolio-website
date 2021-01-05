@@ -15,15 +15,17 @@ p
 {
     font-size: 20px;
     color: #3E3E3E;
+    text-align: justify;
 }
 .half-width
 {
     
     width: 40%;
-    margin-left: 5%;
+    margin-left: 4%;
     padding: 2%;
     margin-top: 7%;
     float: left;
+    text-align: justify;
 }
 
 .half-width img
@@ -46,13 +48,59 @@ section
 }
 .half-width pre
 {
-    
     position : absolute;
     top: 27px;
     right: 63px;
     font-size: 17px;
     font-weight: 600;
     color: #1c094d;
-    
+}
+h2
+{
+    font-size: 40px;
+    color: #270e6b;
+}
 
+#header2
+{
+    text-align: center;
+}
+
+
+.three-picture
+{
+    width: 22%;
+    float: left;
+    margin-top: 5%;
+    box-shadow: 10px 10px 50px rgb(219, 215, 215);
+    padding: 2%;
+    border-radius: 10px;
+
+}
+
+#first-pic
+{
+    margin-left: 8%;
+   
+}
+#second-pic
+{
+    margin-left: 2%;
+}
+#third-pic
+{
+   margin-left: 2%;
+}
+
+.image-size
+{
+    width: 100%;
+}
+.work #images
+{
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 20%;
 }
