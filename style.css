@@ -19,7 +19,6 @@ p
 }
 .half-width
 {
-    
     width: 40%;
     margin-left: 4%;
     padding: 2%;
@@ -43,8 +42,15 @@ p
 }
 section
 {
-    
     height: 800px;
+}
+
+.myskill
+{
+    height: 750px;
+    border: 1px solid blue;
+    
+    padding-bottom: 5%;
 }
 .half-width pre
 {
@@ -140,8 +146,47 @@ footer p
 footer h2
 {
     font-size: 35px;
-    text-align: center;
+    
     color: #6b5b95;
+}
+
+#center
+{
+    text-align: center;
+}
+#sk
+{
+    color:  #ff7b25;
+}
+.skill-exp
+{
+    color: #c94c4c;
+}
+h3
+{
+    color:  #7a3b2e;
+    font-size: 25px;
+}
+
+.project-link-text
+{
+    color: #c94c4c;
+    font-weight: 600;
+    font-size: 20px;
+}
+.shadow
+{
+    box-shadow: 5px 7px 40px grey;
+    border-radius: 10px;
+}
+.part
+{
+    width: 25%;
+    float: left;
+    margin-left: 2%;
+    padding: 3%;
+    height: 450px;
+    margin-top: 2%;
 }
 
 
