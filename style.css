@@ -19,6 +19,7 @@ p
 }
 .half-width
 {
+    
     width: 40%;
     margin-left: 4%;
     padding: 2%;
@@ -42,16 +43,15 @@ p
 }
 section
 {
+    
     height: 800px;
 }
-
-.myskill
+.fourth-portion
 {
-    height: 750px;
-    border: 1px solid blue;
-    
-    padding-bottom: 5%;
+    height: 320px;
 }
+
+
 .half-width pre
 {
     position : absolute;
@@ -81,8 +81,10 @@ h2
     box-shadow: 10px 10px 50px rgb(219, 215, 215);
     padding: 2%;
     border-radius: 10px;
+    height: 400px;
 
 }
+
 
 #first-pic
 {
@@ -116,6 +118,7 @@ h2
     display: block;
     margin: auto;
     margin-top: 2%;
+    height: 250px;
 }
 
 #work-text
@@ -138,14 +141,15 @@ footer p
     text-align: center;
     color: #ff7b25;
     font-size: 18px;
-    margin-top: -30%;
+    /*margin-top: -30%;*/
     font-weight: 800;
-
-
 }
-footer h2
+
+
+#foot-h2
 {
     font-size: 35px;
+    text-align: center;
     
     color: #6b5b95;
 }
@@ -174,6 +178,15 @@ h3
     font-weight: 600;
     font-size: 20px;
 }
+
+.myskill
+{
+    height: 800px;
+    padding-bottom: 5%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .shadow
 {
     box-shadow: 5px 7px 40px grey;
@@ -181,12 +194,36 @@ h3
 }
 .part
 {
-    width: 25%;
+    width: 23%;
     float: left;
-    margin-left: 2%;
+    margin-left: 3%;
     padding: 3%;
-    height: 450px;
-    margin-top: 2%;
+    height: 430px;
+    margin-top: 5%;
+    background-color: white;
+   
+}
+#pl
+{
+    border-left: 6px solid;
+    border-image: linear-gradient(45deg ,#4040a1,#f18973);
+    border-image-slice: 1;
+}
+#wd
+{
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg ,#50394c,#b2b2b2);
+    border-image-slice: 1;
+}
+#dr
+{
+    border-left: 6px solid;
+    border-image: linear-gradient(90deg ,#667292,#8d9db6);
+    border-image-slice: 1;
+}
+#last
+{
+    color: grey;
 }
 
 
