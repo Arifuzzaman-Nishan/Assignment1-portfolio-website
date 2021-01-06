@@ -43,6 +43,7 @@ p
 }
 section
 {
+    
     height: 800px;
 }
 .half-width pre
@@ -95,33 +96,43 @@ h2
 {
     width: 100%;
 }
-.work #images
+
+.picture
 {
-    width: 65%;
-    text-align: center;
+    
+    height:500px;
+    position: relative;
+}
+
+.pic
+{
+    width: 70%;
     display: block;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 2%;
 }
-#text
-{
-    margin-left: 20%;
-    margin-top: -10%;
-}
-#button-position
+
+#work-text
 {
     position: absolute;
-    top: 340%;
-    right: 23%;
-
+    top: 13%;
+    left: 20%;
 }
+#lets-chat
+{
+    position: absolute;
+    top: 24%;
+    left: 69%;
+}
+
+
 
 footer p
 {
     text-align: center;
     color: #ff7b25;
     font-size: 18px;
-    margin-top: -15%;
+    margin-top: -30%;
     font-weight: 800;
 
 
